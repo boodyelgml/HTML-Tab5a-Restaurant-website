@@ -1,4 +1,8 @@
 $(document).ready(function () {
+        // ******************************loader***********************************
+    $(window).on("load" , function(){
+    $(".loader").fadeOut()
+})
     // ******************************owl carousel customization***********************************
     $(".owl-carousel").owlCarousel({
         items: 1
